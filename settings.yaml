@@ -1,10 +1,10 @@
 #数据库连接
 mysql:
   host: localhost         #MySQL数据库服务器的地址
-  port:3306               #这里填写端口号
-  db:                     #数据库名称
-  user:root               #用户名
-  password:123456         #密码
+  port: 3306               #这里填写端口号
+  db: blog                   #数据库名称
+  user: root               #用户名
+  password: 123456         #密码
   log_level: dev          #日志级别,意思是开发模式,可以设置为dev,prod,debug，打印日志
 logger:
   level: info           #日志级别,意思是开发模式,可以设置为dev,prod,debug，打印日志
