@@ -2,7 +2,7 @@ package core
 
 import (
 	"Go-blog/config" //配置文件路径
-	"Go-blog/global"
+	"Go-blog/global" 
 	"fmt"
 	"io/ioutil"
 	"log"
